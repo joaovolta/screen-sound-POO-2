@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r3vtrmfnAJk=",
+  "dgSpecHash": "bTlB9dUQ+jg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\01-Organizando\\ScreenSound03-projeto-inicial\\ScreenSound03-projeto-inicial\\ScreenSound\\ScreenSound.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\João\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\João\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\João\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\João\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\02-Avaliacao\\screen-sound-POO-2\\ScreenSound.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

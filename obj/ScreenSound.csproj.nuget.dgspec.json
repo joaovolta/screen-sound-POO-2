@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\01-Organizando\\ScreenSound03-projeto-inicial\\ScreenSound03-projeto-inicial\\ScreenSound\\ScreenSound.csproj": {}
+    "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\02-Avaliacao\\screen-sound-POO-2\\ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\01-Organizando\\ScreenSound03-projeto-inicial\\ScreenSound03-projeto-inicial\\ScreenSound\\ScreenSound.csproj": {
+    "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\02-Avaliacao\\screen-sound-POO-2\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\01-Organizando\\ScreenSound03-projeto-inicial\\ScreenSound03-projeto-inicial\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\02-Avaliacao\\screen-sound-POO-2\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\01-Organizando\\ScreenSound03-projeto-inicial\\ScreenSound03-projeto-inicial\\ScreenSound\\ScreenSound.csproj",
+        "projectPath": "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\02-Avaliacao\\screen-sound-POO-2\\ScreenSound.csproj",
         "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\01-Organizando\\ScreenSound03-projeto-inicial\\ScreenSound03-projeto-inicial\\ScreenSound\\obj\\",
+        "outputPath": "C:\\Users\\João\\OneDrive\\Documentos\\Curso-Csharp-Alura\\03-DominandoPOO\\02-Avaliacao\\screen-sound-POO-2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +47,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -60,30 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
