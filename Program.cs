@@ -8,6 +8,7 @@ internal class Program
         Banda theBeatles = new("The Beatles");
         theBeatles.AdicionarNota(new Avaliacao(10));
         theBeatles.AdicionarNota(new Avaliacao(8));
+        theBeatles.AdicionarNota(new Avaliacao(10));
 
         Dictionary<string, Banda> bandasRegistradas = new();
         bandasRegistradas.Add(theBeatles.Nome, theBeatles);
