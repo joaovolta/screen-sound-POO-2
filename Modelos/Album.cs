@@ -7,11 +7,13 @@ internal class Album
     public Album(string nome)
     {
         Nome = nome;
+        ContadorDeObjetos++;
     }
 
     public string Nome { get; }
     public int DuracaoTotal => musicas.Sum(m => m.Duracao);
     public List<Musica> Musicas => musicas;
+    public static int ContadorDeObjetos = 0; // Utilizado para fazer a contagem de quantos objetos foram criados do tipo Album
 
     public void AdicionarMusica(Musica musica)
     {

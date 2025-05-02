@@ -83,6 +83,8 @@ internal class Program
                 banda.AdicionarAlbum(album);
 
                 Console.WriteLine($"O álbum {tituloAlbum} de {nomeDaBanda} foi registrado com sucesso!");
+                //Utilizado para printar que a contagem de albuns criados 
+                //Console.WriteLine(Album.ContadorDeObjetos);
                 Thread.Sleep(4000);
                 Console.Clear();
                 ExibirOpcoesDoMenu();
