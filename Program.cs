@@ -55,7 +55,7 @@ internal class Program
                     break;
                 case 4:
                     MenuAvaliarBandas menu4 = new();
-                    menu4.Executar();
+                    menu4.Executar(bandasRegistradas);
                     ExibirOpcoesDoMenu();
                     break;
                 case 5:
@@ -75,7 +75,6 @@ internal class Program
         void RegistrarAlbum()
         {
             Console.Clear();
-            ExibirTituloDaOpcao("Registro de álbuns");
             Console.Write("Digite a banda cujo álbum deseja registrar: ");
             string nomeDaBanda = Console.ReadLine()!;
             if (bandasRegistradas.ContainsKey(nomeDaBanda))
@@ -108,7 +107,6 @@ internal class Program
         {
             Console.Clear();
 
-            ExibirTituloDaOpcao("Registro das bandas");
             Console.Write("Digite o nome da banda que deseja registrar: ");
             string nomeDaBanda = Console.ReadLine()!;
             Banda banda = new(nomeDaBanda);
@@ -123,7 +121,6 @@ internal class Program
         void MostrarBandasRegistradas()
         {
             Console.Clear();
-            ExibirTituloDaOpcao("Exibindo todas as bandas registradas na nossa aplicação");
 
             foreach (string banda in bandasRegistradas.Keys)
             {
