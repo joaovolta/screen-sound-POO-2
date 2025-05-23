@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/02-Avaliacao/screen-sound-POO-2/ScreenSound.csproj",
+      "projectUniqueName": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
       "projectName": "ScreenSound",
-      "projectPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/02-Avaliacao/screen-sound-POO-2/ScreenSound.csproj",
+      "projectPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
       "packagesPath": "/home/joaovolta/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/02-Avaliacao/screen-sound-POO-2/obj/",
+      "outputPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/joaovolta/.nuget/NuGet/NuGet.Config"
