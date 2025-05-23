@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/joaovolta/.nuget/packages/": {}
+    "/Users/joaovolta/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
+      "projectUniqueName": "/Users/joaovolta/Documents/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
       "projectName": "ScreenSound",
-      "projectPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
-      "packagesPath": "/home/joaovolta/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/obj/",
+      "projectPath": "/Users/joaovolta/Documents/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
+      "packagesPath": "/Users/joaovolta/.nuget/packages/",
+      "outputPath": "/Users/joaovolta/Documents/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/joaovolta/.nuget/NuGet/NuGet.Config"
+        "/Users/joaovolta/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
