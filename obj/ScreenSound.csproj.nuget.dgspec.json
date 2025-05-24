@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joaovolta/Documents/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj": {}
+    "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj": {}
   },
   "projects": {
-    "/Users/joaovolta/Documents/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj": {
+    "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joaovolta/Documents/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
+        "projectUniqueName": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "/Users/joaovolta/Documents/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
-        "packagesPath": "/Users/joaovolta/.nuget/packages/",
-        "outputPath": "/Users/joaovolta/Documents/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/obj/",
+        "projectPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
+        "packagesPath": "/home/joaovolta/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/joaovolta/.nuget/NuGet/NuGet.Config"
+          "/home/joaovolta/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

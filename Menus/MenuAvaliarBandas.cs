@@ -2,12 +2,11 @@ using ScreenSound.Modelos;
 
 namespace ScreenSound.Menus;
 
-internal class MenuAvaliarBanda : Menu
+internal class MenuAvaliarBandas : Menu
 { 
-    public void Executar(Dictionary<string, Banda> bandasRegistradas) 
+    public override void Executar(Dictionary<string, Banda> bandasRegistradas) 
     {
-        Console.Clear();
-
+        base.Executar(bandasRegistradas);   
         ExibirTituloDaOpcao("Avaliar banda");
         Console.Write("Digite o nome da banda que deseja avaliar: ");
         string nomeDaBanda = Console.ReadLine()!;

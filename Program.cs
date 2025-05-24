@@ -14,6 +14,15 @@ internal class Program
         Dictionary<string, Banda> bandasRegistradas = new();
         bandasRegistradas.Add(theBeatles.Nome, theBeatles);
 
+        Dictionary<int, Menu> opcoes = new();
+        opcoes.Add(1, new MenuRegistrarBanda());
+        opcoes.Add(2, new MenuRegistrarAlbum());
+        opcoes.Add(3, new MenuMostrarBandasRegistradas());
+        opcoes.Add(4, new MenuAvaliarBandas());
+        opcoes.Add(5, new MenuExibirDetalhes());
+        opcoes.Add(-1, new MenuSair());
+            
+
         void ExibirLogo()
         {
             Console.WriteLine(@"
@@ -42,96 +51,16 @@ internal class Program
             string opcaoEscolhida = Console.ReadLine()!;
             int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
 
-            switch (opcaoEscolhidaNumerica)
+            if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
             {
-                case 1:
-                    RegistrarBanda();
-                    break;
-                case 2:
-                    RegistrarAlbum();
-                    break;
-                case 3:
-                    MostrarBandasRegistradas();
-                    break;
-                case 4:
-                    MenuAvaliarBandas menu4 = new();
-                    menu4.Executar(bandasRegistradas);
-                    ExibirOpcoesDoMenu();
-                    break;
-                case 5:
-                    MenuExibirDetalhes menu5 = new();
-                    menu5.Executar(bandasRegistradas);
-                    ExibirOpcoesDoMenu();
-                    break;
-                case -1:
-                    Console.WriteLine("Tchau tchau :)");
-                    break;
-                default:
-                    Console.WriteLine("Opção inválida");
-                    break;
-            }
-        }
-
-        void RegistrarAlbum()
-        {
-            Console.Clear();
-            Console.Write("Digite a banda cujo álbum deseja registrar: ");
-            string nomeDaBanda = Console.ReadLine()!;
-            if (bandasRegistradas.ContainsKey(nomeDaBanda))
-            {
-                Banda banda = bandasRegistradas[nomeDaBanda];
-
-                Console.Write("Agora digite o título do álbum: ");
-                string tituloAlbum = Console.ReadLine()!;
-                Album album = new(tituloAlbum);
-                banda.AdicionarAlbum(album);
-
-                Console.WriteLine($"O álbum {tituloAlbum} de {nomeDaBanda} foi registrado com sucesso!");
-                //Utilizado para printar que a contagem de albuns criados 
-                //Console.WriteLine(Album.ContadorDeObjetos);
-                Thread.Sleep(4000);
-                Console.Clear();
-                ExibirOpcoesDoMenu();
+                Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
+                menuASerExibido.Executar(bandasRegistradas);
+                if(opcaoEscolhidaNumerica > 0) ExibirOpcoesDoMenu();    
             }
             else
             {
-                Console.WriteLine($"\nA banda {nomeDaBanda} não foi encontrada!");
-                Console.WriteLine("Digite uma tecla para voltar ao menu principal");
-                Console.ReadKey();
-                Console.Clear();
-                ExibirOpcoesDoMenu();
+                Console.WriteLine("Opcao invalida");
             }
-        }
-
-        void RegistrarBanda()
-        {
-            Console.Clear();
-
-            Console.Write("Digite o nome da banda que deseja registrar: ");
-            string nomeDaBanda = Console.ReadLine()!;
-            Banda banda = new(nomeDaBanda);
-            bandasRegistradas.Add(nomeDaBanda, banda);
-
-            Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso!");
-            Thread.Sleep(4000);
-            Console.Clear();
-            ExibirOpcoesDoMenu();
-        }
-
-        void MostrarBandasRegistradas()
-        {
-            Console.Clear();
-
-            foreach (string banda in bandasRegistradas.Keys)
-            {
-                Console.WriteLine($"Banda: {banda}");
-            }
-
-            Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");
-            Console.ReadKey();
-            Console.Clear();
-            ExibirOpcoesDoMenu();
-
         }
 
         ExibirOpcoesDoMenu();
