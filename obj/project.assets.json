@@ -8,24 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/joaovolta/.nuget/packages/": {}
+    "C:\\Users\\JoaoVolta\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
+      "projectUniqueName": "C:\\Users\\JoaoVolta\\Documents\\Curso-Csharp-Alura\\03-DominandoPOO\\04-Semelhancas\\screen-sound-POO-2\\ScreenSound.csproj",
       "projectName": "ScreenSound",
-      "projectPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/ScreenSound.csproj",
-      "packagesPath": "/home/joaovolta/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/joaov/OneDrive/Documentos/Curso-Csharp-Alura/03-DominandoPOO/03-Comportamentos/screen-sound-POO-2/obj/",
+      "projectPath": "C:\\Users\\JoaoVolta\\Documents\\Curso-Csharp-Alura\\03-DominandoPOO\\04-Semelhancas\\screen-sound-POO-2\\ScreenSound.csproj",
+      "packagesPath": "C:\\Users\\JoaoVolta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JoaoVolta\\Documents\\Curso-Csharp-Alura\\03-DominandoPOO\\04-Semelhancas\\screen-sound-POO-2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/joaovolta/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\JoaoVolta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,7 +50,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -64,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
