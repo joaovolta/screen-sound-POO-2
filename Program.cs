@@ -1,9 +1,13 @@
 ﻿using ScreenSound.Modelos;
 using ScreenSound.Menus;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks; // Necessário para async/await
 
 internal class Program
 {
-    private static void Main(string[] args)
+    // O método Main agora é assíncrono para permitir chamadas await
+    private static async Task Main(string[] args)
     {
         // CRIACAO DO OBJETO DA BANDA
         Banda theBeatles = new("The Beatles");
@@ -11,9 +15,11 @@ internal class Program
         theBeatles.AdicionarNota(new Avaliacao(8));
         theBeatles.AdicionarNota(new Avaliacao(10));
 
+        // Dicionário para armazenar as bandas registradas
         Dictionary<string, Banda> bandasRegistradas = new();
         bandasRegistradas.Add(theBeatles.Nome, theBeatles);
 
+        // Dicionário de opções de menu
         Dictionary<int, Menu> opcoes = new();
         opcoes.Add(1, new MenuRegistrarBanda());
         opcoes.Add(2, new MenuRegistrarAlbum());
@@ -22,8 +28,8 @@ internal class Program
         opcoes.Add(5, new MenuAvaliarAlbum());
         opcoes.Add(6, new MenuExibirDetalhes());
         opcoes.Add(-1, new MenuSair());
-            
-
+                
+        // Método para exibir o logo
         void ExibirLogo()
         {
             Console.WriteLine(@"
@@ -38,7 +44,9 @@ internal class Program
             Console.WriteLine("Boas vindas ao Screen Sound 2.0!");
         }
 
-        void ExibirOpcoesDoMenu()
+        // Método para exibir as opções do menu
+        // Agora também é assíncrono
+        async Task ExibirOpcoesDoMenu()
         {
             ExibirLogo();
             Console.WriteLine("\nDigite 1 para registrar uma banda");
@@ -56,8 +64,10 @@ internal class Program
             if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
             {
                 Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
-                menuASerExibido.Executar(bandasRegistradas);
-                if(opcaoEscolhidaNumerica > 0) ExibirOpcoesDoMenu();    
+                // Chama o método Executar do menu de forma assíncrona
+                await menuASerExibido.Executar(bandasRegistradas);
+                // Continua exibindo o menu se a opção não for sair
+                if(opcaoEscolhidaNumerica > 0) await ExibirOpcoesDoMenu();    
             }
             else
             {
@@ -65,6 +75,7 @@ internal class Program
             }
         }
 
-        ExibirOpcoesDoMenu();
+        // Inicia a exibição do menu
+        await ExibirOpcoesDoMenu();
     }
 }

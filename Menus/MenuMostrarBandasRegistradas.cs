@@ -4,9 +4,9 @@ namespace ScreenSound.Menus;
 
 internal class MenuMostrarBandasRegistradas : Menu
 {
-    public override void Executar(Dictionary<string, Banda> bandasRegistradas)
+   public override async Task Executar(Dictionary<string, Banda> bandasRegistradas)
     {
-        base.Executar(bandasRegistradas);
+        await base.Executar(bandasRegistradas);
         ExibirTituloDaOpcao("Bandas Registradas");
         foreach (string banda in bandasRegistradas.Keys)
         {
